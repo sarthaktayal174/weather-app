@@ -129,4 +129,4 @@ python dashapp.py
 - **Graphs**: The dashboard uses Plotly to generate line charts based on data from MongoDB, making it easy to visualize weather trends and patterns.
 
 
-
+![alt text]([http://url/to/img.png](https://github.com/sarthaktayal174/weather-app/blob/main/weather_app/IMG8.png))
