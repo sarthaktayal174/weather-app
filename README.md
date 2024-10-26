@@ -86,29 +86,29 @@ The following environment variables need to be set:
    ```bash
    git clone https://github.com/yourusername/weather-monitoring-system.git
    cd weather-monitoring-system
-Install required libraries:
+2. Install required libraries:
 
   ```bash
 pip install apscheduler pymongo twilio dash plotly requests pydantic pandas
 ```
 
-Set up environment variables:
+3. Set up environment variables:
 
-Configure environment variables for OpenWeather API, MongoDB, Twilio, and notification phone number.
+4. Configure environment variables for OpenWeather API, MongoDB, Twilio, and notification phone number.
 
-Start MongoDB if running locally.
+### Running the Project
 
-###Running the Project
+1. Start MongoDB if running locally.
 
-Start the Data Fetcher: The run.py script fetches weather data and stores it in MongoDB every five minutes.
+2. Start the Data Fetcher: The run.py script fetches weather data and stores it in MongoDB every five minutes.
 ```bash
 python run.py
 ```
-Start the Dash Application: The dashapp.py script provides a web dashboard to view weather data.
+3. Start the Dash Application: The dashapp.py script provides a web dashboard to view weather data.
 ```bash
 python dashapp.py
 ```
-Access the Dashboard: Open a web browser and navigate to http://127.0.0.1:8050.
+4. Access the Dashboard: Open a web browser and navigate to http://127.0.0.1:8050.
 
 ## Usage
 
